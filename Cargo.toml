@@ -1,0 +1,11 @@
+[package]
+name = "ruby_sql_lexer"
+version = "1.0.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.6.1"
+sql_lexer = "0.9.1"
+libcruby-sys = "0.6.1"
